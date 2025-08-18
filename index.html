@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+       <style>
+.book-img {
+  height: 300px;       /* same height for all images */
+  object-fit: cover;   /* crops and fits nicely */
+  width: 100%;
+}
+</style>
+</head>
+<body>
+   <ul class="nav justify-content-center fs-6 fw-semibold">
+  <li class="nav-item">
+    <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="about.html">About us</a>
+  </li>
+
+  <!-- Dropdown for Authors -->
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" href="#" id="authorsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Authors
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="authorsDropdown">
+      <li><a class="dropdown-item" href="rowling.html">J.K. Rowling</a></li>
+      <li><a class="dropdown-item" href="tolkien.html">J.R.R. Tolkien</a></li>
+      <li><a class="dropdown-item" href="shakespeare.html">William Shakespeare</a></li>
+      <li><a class="dropdown-item" href="hemingway.html">Ernest Hemingway</a></li>
+      <li><a class="dropdown-item" href="austen.html">Jane Austen</a></li>
+      <li><a class="dropdown-item" href="dickens.html">Charles Dickens</a></li>
+      <li><a class="dropdown-item" href="orwell.html">George Orwell</a></li>
+      <li><a class="dropdown-item" href="twain.html">Mark Twain</a></li>
+      <li><a class="dropdown-item" href="tolstoy.html">Leo Tolstoy</a></li>
+      <li><a class="dropdown-item" href="dostoevsky.html">Fyodor Dostoevsky</a></li>
+      <li><a class="dropdown-item" href="christie.html">Agatha Christie</a></li>
+      <li><a class="dropdown-item" href="tagore.html">Rabindranath Tagore</a></li>
+      <li><a class="dropdown-item" href="premchand.html">Munshi Premchand</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="contact.html">Contact us</a>
+  </li>
+</ul>
+
+
+  <!-- Hero Section with Banner Image -->
+<section class="hero-section text-light text-center d-flex align-items-center" 
+         style="background: url('images/img1.webp') no-repeat center center/cover; height: 60vh;">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Welcome to the Online Library Catalog</h1>
+    <p class="lead">Explore a world of knowledge with books from legendary authors across genres.</p>
+    <a href="about.html" class="btn btn-light btn-lg mt-3">Learn More</a>
+  </div>
+</section>
+<!-- Featured Books -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Featured Books</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/HP.jpg" class="card-img-top book-img" alt="Harry Potter">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter</h5>
+            <p class="card-text">By J.K. Rowling — A magical journey through Hogwarts and beyond.</p>
+            <a href="rowling.html" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/LOR.jpg" class="card-img-top book-img" alt="The Lord of the Rings">
+          <div class="card-body">
+            <h5 class="card-title">The Lord of the Rings</h5>
+            <p class="card-text">By J.R.R. Tolkien — An epic tale of Middle-earth’s greatest heroes.</p>
+            <a href="tolkien.html" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/RAJ.webp" class="card-img-top book-img" alt="Romeo & Juliet">
+          <div class="card-body">
+            <h5 class="card-title">Romeo & Juliet</h5>
+            <p class="card-text">By William Shakespeare — A timeless story of love and tragedy.</p>
+            <a href="shakespeare.html" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-light pt-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-4 mb-3">
+        <h5>About Us</h5>
+        <p>
+          Welcome to our Online Library Catalog where you can explore books from
+          various genres and authors.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="authors.html" class="text-light text-decoration-none">Authors</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-4 mb-3">
+        <h5>Contact</h5>
+        <p>Email: info@library.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <div>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <hr class="bg-light" />
+    <div class="text-center pb-3">
+      &copy; 2025 Online Library Catalog | All Rights Reserved
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons CDN (for social icons) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+</html>
